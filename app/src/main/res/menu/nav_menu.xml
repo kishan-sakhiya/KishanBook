@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_menu_home" />
+
+        <item
+            android:id="@+id/note"
+            android:icon="@drawable/ic_note"
+            android:title="@string/nav_menu_note" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/nav_menu_share" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/nav_menu_about" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/nav_menu_logout" />
+
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_privacy"
+            android:title="@string/nav_menu_privacypolicy" />
+    </group>
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/feedback"
+            android:title="@string/nav_menu_feedback" />
+    </group>
+    <group android:id="@+id/group_all">
+        <item
+            android:id="@+id/team"
+            android:title="@string/team" />
+        <item
+            android:id="@+id/income"
+            android:title="@string/nav_menu_income" />
+        <item
+            android:id="@+id/withdraw"
+            android:title="@string/nav_menu_withdraw" />
+    </group>
+
+</menu>

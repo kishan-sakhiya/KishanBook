@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="850dp"
+    android:padding="5dp"
+    android:background="@color/bg_color"
+    tools:context=".Fragment.FeedbackFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/feedback"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:focusable="false"
+            android:text="@string/email"
+            android:background="@drawable/edt_bg_design"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColorHint="@color/dark_gray"
+            android:paddingStart="10dp"
+            android:hint="@string/enter_your_name"
+            android:background="@drawable/edt_bg_design"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/dark_gray"
+            android:hint="@string/enter_your_feedback"
+            android:background="@drawable/edt_bg_design"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/dark_gray"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btn_submit"/>
+
+    </LinearLayout>
+
+</LinearLayout>

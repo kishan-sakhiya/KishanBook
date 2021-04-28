@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Kishan Book</string>
+    <string name="btnnext">Next</string>
+    <string name="edt_hint_username">Enter a Email</string>
+    <string name="edt_hint_password">Enter a Password</string>
+    <string name="edt_hint_Cpassword">Confirm Password</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnregister">Register</string>
+    <string name="edt_hint_fname">Enter a Firstname</string>
+    <string name="edt_hint_lname">Enter a Lastname</string>
+    <string name="txt_registration">Registration</string>
+    <string name="please_en_em">Please Enter Email</string>
+    <string name="please_en_pa">Please Enter password</string>
+    <string name="pa_to_short">Password Too Short</string>
+    <string name="login_succ">Login Successful</string>
+    <string name="login_fai">Login Failed</string>
+    <string name="please_en_con_pass">Please Enter Confirm Password</string>
+    <string name="pa_doe_mat">Password Doesn\'t Match</string>
+    <string name="acc_suc_cre">Account Successfully Created</string>
+
+    <string name="action_bar_welcome">Welcome</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="no_internet">No Internet!</string>
+    <string name="internet_check_text">Please Check Your Internet Connection</string>
+    <string name="btn_retrive">Retrive</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">open</string>
+    <string name="close">Close</string>
+    <string name="kishan_book">Kishan Book</string>
+    <string name="gmail">info@kishan.com</string>
+    <string name="email">ksakhiya315@rku.ac.in</string>
+    <string name="privacy_message">Kishan Book informs you of our policies regarding the collection , use , and disclosure of personal data when you use our services and the choice you have associated with that data.
+We use your data to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defind in this privacy Policy, terms used in this Privacy Policy have the same meanigs as in our Terms and condition accessbile.</string>
+    <string name="privacy_update_message">Updated March 08, 2021</string>
+    <string name="usage_data">1. Usage Data</string>
+    <string name="usage_message">We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer\'s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+Tracking &amp; Cookies Data
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</string>
+    <string name="security">2. Security of Data</string>
+    <string name="security_message">The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+Service Providers
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used. These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</string>
+    <string name="grievance_officer">3. Grievance Officer</string>
+    <string name="grievance_officer_mes">Following the information Technology Act 2000 and rules made there under, the name and contact details of the Grievance Officer are provided below:</string>
+    <string name="officer_address">Mr. Kishan Patel \n \nKishan Book Pvt Ltd.  \n \n3th floor Block A Kastur Village, \n \nRajkot District, \n \nGujarat, India,360002. \n \nPhone: 1700 108 9797 \n \nksakhiya315@rku.ac.in \n\nTime: Mon - Fri (10:00 - 17:00)</string>
+    <string name="all_notes">All notes</string>
+    <string name="about_alert_dialog">Version: 1.0.0 \n \nCopyright \u00a9 2021, Kishan Book Pvt Ltd.</string>
+    <string name="logout_alert_dialog">Are You Sure You Want To Logout?</string>
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_note">Note</string>
+    <string name="nav_menu_share">Share</string>
+    <string name="nav_menu_about">About</string>
+    <string name="nav_menu_logout">Logout</string>
+    <string name="nav_menu_privacypolicy"><![CDATA[Privacy & Policy]]></string>
+    <string name="nav_menu_feedback">Feedback</string>
+    <string name="feedback">feedback</string>
+    <string name="btn_submit">Submit</string>
+    <string name="team">Team</string>
+    <string name="our_team">Our Team</string>
+    <string name="owner_details">Owner Details</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="team_add">Add</string>
+    <string name="team_show">Show</string>
+    <string name="team_update">Update</string>
+    <string name="team_delete">Delete</string>
+    <string name="team_clear">Clear</string>
+    <string name="delete_your_data">Delete Your Data</string>
+    <string name="team_cancel">Cancel</string>
+    <string name="update_your_data">Update Your Data</string>
+    <string name="enter_s_r_no">Enter S.R.NO.</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="nav_menu_income">Income</string>
+    <string name="home_fragment_message"> KishanBook keeps you free from headache of payment calculation. Annual Income Calculation &amp; couting the history  of patyment.</string>
+    <string name="home_fragment_quotes">"Agriculture is the most healthful, most useful and most noble employment of man."</string>
+    <string name="home_fragment_quote2"><![CDATA[Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals & happiness.]]></string>
+    <string name="home_fragment_welcome">Welcome</string>
+    <string name="splash_text">Kishan Book</string>
+    <string name="nav_menu_withdraw">Withdraw</string>
+    <string name="annual_withdraw">Annual Withdraw</string>
+    <string name="log_suc">Logout Successful</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_feedback">Enter Your Feedback</string>
+    <string name="annual_income">Annual Income</string>
+    <string name="select_date">Select Date</string>
+    <string name="enter_money">Enter Money</string>
+    <string name="first_save_your_data">First Save Your Data</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="No">No</string>
+    <string name="Yes">yes</string>
+    <string name="ple_sel_date">Please Select Date</string>
+    <string name="ple_ent_money">Please Enter Money</string>
+    <string name="data_inserted">Data Inserted</string>
+    <string name="data_updated">Data Updated</string>
+    <string name="data_not_updated">Data Not Updated</string>
+    <string name="data_not_inserted">Data Not Inserted</string>
+    <string name="data">Data</string>
+    <string name="data_deleted">Data Deleted</string>
+    <string name="data_not_deleted">Data Not Deleted</string>
+    <string name="data_nothing_found">Data Nothing Found</string>
+
+</resources>

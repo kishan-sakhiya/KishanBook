@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206303429764",
+    "project_id": "kishan-book",
+    "storage_bucket": "kishan-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206303429764:android:bb130e05e11434295f6ed1",
+        "android_client_info": {
+          "package_name": "com.rku_18fotca11036.kishanbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206303429764-qv7s8u6l3s5g972nj2fv1ie1sogkb2j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRlAIJBzbnHR94LRh3h-JKs8VKhGtYS6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206303429764-qv7s8u6l3s5g972nj2fv1ie1sogkb2j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

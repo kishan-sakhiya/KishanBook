@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".Fragment.IncomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/annual_income"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtCalendar"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/edt_bg_design"
+                    android:drawablePadding="5dp"
+                    android:focusable="false"
+                    android:hint="@string/select_date"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:padding="10dp"
+                    android:textColor="@color/dark"
+                    android:textColorHint="@color/dark_gray"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imgCalendar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_calendar"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/edt_bg_design"
+                android:drawablePadding="5dp"
+                android:hint="@string/enter_money"
+                android:inputType="number"
+                android:maxLength="20"
+                android:padding="10dp"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark_gray"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btnInsert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnbackground"
+                android:padding="5dp"
+                android:text="@string/team_add"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/dark_gray" />
+
+            <Button
+                android:id="@+id/btnShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnbackground"
+                android:padding="5dp"
+                android:text="@string/team_show"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/dark_gray" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnbackground"
+                android:padding="5dp"
+                android:text="@string/team_update"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/dark_gray" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnbackground"
+                android:padding="5dp"
+                android:text="@string/team_delete"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/dark_gray" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnbackground"
+                android:padding="5dp"
+                android:text="@string/team_clear"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/dark_gray" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/splash_logo"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
